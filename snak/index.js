@@ -62,5 +62,5 @@ const tavoloVip = [
 console.log(tavoloVip)
 
 tavoloVip.forEach((element,index) => {
-    console.log(element,index)
+    console.log( 'tavolo VIP' + element.nome,(index + 1))
 });

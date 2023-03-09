@@ -17,6 +17,6 @@ Id  Name                Grades
 
 
 - creare una lista con tutti gli studenti come oggetti
-- controlliamo se in questa lista ci sono studenti con voto superiore a 70 e id superiore a 120, se si verranno aggiunti ad un altra lista,
+- controlliamo se in questa lista ci sono studenti con voto superiore a 70 se si verranno aggiunti ad un altra lista,
 - se hanno id inferiore a 120 ma voto superiore a 70, verranno messi in un altra lista ancora
 
