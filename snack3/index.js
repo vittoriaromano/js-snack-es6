@@ -23,37 +23,17 @@ const bici = [
 
 console.log(bici);
 
+//lista peso degli oggetti
+
 const pesoBici = bici.map((bici) =>{
     let { peso } = bici;
-    //stampo tutti i pesi
-    
    return peso
 });
 console.log(pesoBici)
 
-// let min = pesoBici[0];
-// let max = pesoBici[0];
+// peso oggetto piu leggero
+console.log(Math.min(...pesoBici));
 
-// for(let i=0; i = pesoBici.length; i++){
-//     if(pesoBici[i] < min){
-//         min = pesoBici[i];
-
-//     }else if(pesoBici[i] > max){
-//         max = pesoBici[i];
-//     }
-// }
-// console.log('bici leggera' + min)
-
-
-
-
-
-
-
-
-
-// const found = bici.findLast((bici) => bici.peso < 20);
-// console.log(found)
 
 
 
