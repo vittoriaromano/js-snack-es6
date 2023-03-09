@@ -26,7 +26,7 @@ console.log(bici);
 const pesoBici = bici.map((bici) =>{
     let { peso } = bici;
     //stampo tutti i pesi
-    console.log(peso)
+    
    return peso
 });
 console.log(pesoBici)
