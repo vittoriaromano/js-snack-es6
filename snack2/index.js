@@ -41,6 +41,7 @@ const students = [
 
 console.log(students)
 
+
 //studenti con piu di 70
 const studentsGrade = students.filter((element) => element.grade > 70);
 console.log(studentsGrade)
@@ -52,3 +53,8 @@ const studentsId = students.filter((element) => element.id > 120);
 const studentsIdGrade = studentsId.filter((data) => studentsGrade.includes(data));
 console.log(studentsIdGrade)
 
+//map 
+const studentiMinuscolo = students.map((students) => {
+    return students.name.toLowerCase();
+})
+console.log(studentiMinuscolo);
